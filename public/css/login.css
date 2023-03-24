@@ -1,0 +1,84 @@
+#login-form
+{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+}
+
+#login-title
+{
+    font-family: OpenSansSemibold;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+#login-form label
+{
+    display: block;
+    font-family: OpenSansRegular;
+    font-size: 12px;
+    margin-left: 15%;
+}
+
+#login-form input
+{
+    font-family: OpenSansRegular;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(41, 41, 53);
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;
+    margin-left: 15%;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#button-panel
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 20px;
+}
+
+#login-submit-button
+{
+    display: inline;
+    font-family: OpenSansRegular;
+    font-size: 13px;
+    color: white;
+    border: 1px solid rgb(35, 107, 35);
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 70px;
+    text-align: center;
+}
+
+#login-submit-button:hover
+{
+    background-color: rgb(35, 107, 35);
+    cursor: pointer;
+}
+
+#cancel-button
+{
+    display: inline;
+    font-family: OpenSansRegular;
+    font-size: 13px;
+    color: white;
+    border: 1px solid rgb(107, 35, 35);
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 70px;
+    text-align: center;
+}
+
+#cancel-button:hover
+{
+    background-color: rgb(107, 35, 35);
+    cursor: pointer;
+}

@@ -6,17 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Books</title>
         <link rel="stylesheet" href="css/common.css" />
-        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/view.css" />
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
         <script src="js/cookie-util.js"></script>
-        <script src="js/index.js"></script>
+        <script src="js/view.js"></script>
     </head>
     <body>
         <header>
-            <h1 id="title-text">Book Database</h1>
+            <h1 id="title-text">Books</h1>
             <p id="login-button">Login/Register</p>
         </header>
-        <div id="user-table">
+        <div id="table-controls">
+            <input type="text" id="searchbar" placeholder="Search for a Book/Author" />
+            <p id="search-button" class="control-button">Search</p>
+            <p id="add-button" class="control-button hidden">Add Book</p>
+        </div>
+        <div id="table">
         </div>
     </body>
 </html>

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: OpenSansRegular;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(19, 19, 19);
+}
+
+#title-text
+{
+    text-align: center;
+    color: white;
+    font-family: OpenSansSemiBold;
+}
+
+#login-button
+{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    padding: 7px 13px;
+    color: white;
+    font-family: OpenSansRegular;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#login-button:hover
+{
+    background-color: grey;
+    color:rgb(31, 31, 31);
+    cursor: pointer;
+}

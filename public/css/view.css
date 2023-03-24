@@ -1,0 +1,71 @@
+#table-controls
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#searchbar
+{
+    width: 400px;
+    padding: 10px;
+    background-color:#242424;
+    border: 1px solid #32333d;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.control-button
+{
+    color: white;
+    margin-left: 10px;
+    padding: 9px 15px;
+    border: 1px solid #3c3363;
+    border-radius: 5px;
+    font-family: OpenSansRegular;
+    font-size: 13px;
+    cursor:pointer;
+}
+
+.control-button:hover
+{
+    background-color:#3c3363;
+}
+
+#table
+{
+    background-color: rgb(31, 31, 31);
+    border-radius: 10px;
+    width: 40%;
+    color: white;
+    margin: auto;
+    overflow-y: scroll;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 40px;
+    flex-grow: 1;
+}
+
+.table-entry
+{
+    display: flex;
+}
+
+.table-entry:nth-child(even)
+{
+    background-color:rgb(36, 36, 36);
+}
+
+.book-title, .book-author
+{
+    padding: 0 20px;
+    width: 50%;
+    font-family: OpenSansRegular;
+    font-size: 13px;
+}
