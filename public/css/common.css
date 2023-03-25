@@ -37,25 +37,21 @@ body
 
 @media (max-width: 799px)
 {
-    #login-button
+    #title-text
     {
-        position: static;
-        display: inline;
+        margin-top: 100px;
     }
 }
 
 @media (min-width: 800px)
 {
-    #login-button
-    {
-        position: absolute;
-        top: 5px;
-        right: 15px;
-    }
 }
 
 #login-button
 {
+    position: absolute;
+    top: 5px;
+    right: 15px;
     padding: 7px 13px;
     color: white;
     font-family: OpenSansRegular;
