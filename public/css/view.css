@@ -21,12 +21,13 @@
 
     #searchbar
     {
-        width: 50px;
+        width: 400px;
     }
 }
 
 #table-controls
 {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
