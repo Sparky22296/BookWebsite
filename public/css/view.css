@@ -4,6 +4,11 @@
     {
         width: 95%;
     }
+
+    #searchbar
+    {
+        width: 100%;
+    }
 }
 
 @media (min-width: 800px)
@@ -12,6 +17,19 @@
     {
         width: 40%;
     }
+
+    #searchbar
+    {
+        width: 400px;
+    }
+}
+
+#table-controls
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 #back-button
@@ -142,17 +160,9 @@
 
 /* wegwenguiow */
 
-#table-controls
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
 
 #searchbar
 {
-    width: 400px;
     padding: 10px;
     background-color:#242424;
     border: 1px solid #32333d;
