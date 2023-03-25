@@ -3,7 +3,13 @@
     #table
     {
         width: 95%;
+    }
+
+    #table-controls
+    {
+        width: 95%;
         flex-wrap: wrap;
+        margin: auto;
     }
 
     #searchbar
@@ -27,11 +33,37 @@
 
 #table-controls
 {
-    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+#searchbar
+{
+    padding: 10px;
+    background-color:#242424;
+    border: 1px solid #32333d;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+.control-button
+{
+    color: white;
+    margin-left: 10px;
+    padding: 9px 15px;
+    border: 1px solid #3c3363;
+    border-radius: 5px;
+    font-family: OpenSansRegular;
+    font-size: 13px;
+    cursor:pointer;
+}
+
+.control-button:hover
+{
+    background-color:#3c3363;
 }
 
 #back-button
@@ -163,32 +195,6 @@
 /* wegwenguiow */
 
 
-#searchbar
-{
-    padding: 10px;
-    background-color:#242424;
-    border: 1px solid #32333d;
-    border-radius: 5px;
-    color: white;
-    outline: none;
-}
-
-.control-button
-{
-    color: white;
-    margin-left: 10px;
-    padding: 9px 15px;
-    border: 1px solid #3c3363;
-    border-radius: 5px;
-    font-family: OpenSansRegular;
-    font-size: 13px;
-    cursor:pointer;
-}
-
-.control-button:hover
-{
-    background-color:#3c3363;
-}
 
 #table
 {
