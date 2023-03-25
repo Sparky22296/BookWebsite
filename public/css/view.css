@@ -3,6 +3,7 @@
     #table
     {
         width: 95%;
+        flex-wrap: wrap;
     }
 
     #searchbar
