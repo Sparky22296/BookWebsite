@@ -35,11 +35,26 @@ body
     font-family: OpenSansSemiBold;
 }
 
+@media (max-width: 799px)
+{
+    #login-button
+    {
+        position: static;
+    }
+}
+
+@media (min-width: 800px)
+{
+    #login-button
+    {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+    }
+}
+
 #login-button
 {
-    position: absolute;
-    top: 5px;
-    right: 15px;
     padding: 7px 13px;
     color: white;
     font-family: OpenSansRegular;
