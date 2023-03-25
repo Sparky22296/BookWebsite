@@ -22,6 +22,11 @@
         width: 80px;
         text-align: center;
     }
+
+    .overlay-dialog-box
+    {
+        width: 80%;
+    }
 }
 
 @media (min-width: 800px)
@@ -35,41 +40,11 @@
     {
         width: 400px;
     }
-}
 
-#table-controls
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-#searchbar
-{
-    padding: 10px;
-    background-color:#242424;
-    border: 1px solid #32333d;
-    border-radius: 5px;
-    color: white;
-    outline: none;
-}
-
-.control-button
-{
-    color: white;
-    margin-left: 10px;
-    padding: 9px 15px;
-    border: 1px solid #3c3363;
-    border-radius: 5px;
-    font-family: OpenSansRegular;
-    font-size: 13px;
-    cursor:pointer;
-}
-
-.control-button:hover
-{
-    background-color:#3c3363;
+    .overlay-dialog-box
+    {
+        width: 400px;
+    }
 }
 
 #back-button
@@ -113,7 +88,6 @@
 {
     background-color: rgb(31, 31, 31);
     color: white;
-    width: 400px;
     border-radius: 10px;
     margin-bottom: 150px;
 }
@@ -196,6 +170,41 @@
 {
     background-color: rgb(107, 35, 35);
     cursor: pointer;
+}
+
+#table-controls
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#searchbar
+{
+    padding: 10px;
+    background-color:#242424;
+    border: 1px solid #32333d;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+
+.control-button
+{
+    color: white;
+    margin-left: 10px;
+    padding: 9px 15px;
+    border: 1px solid #3c3363;
+    border-radius: 5px;
+    font-family: OpenSansRegular;
+    font-size: 13px;
+    cursor:pointer;
+}
+
+.control-button:hover
+{
+    background-color:#3c3363;
 }
 
 #table
