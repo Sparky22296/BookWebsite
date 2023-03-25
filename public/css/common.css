@@ -13,6 +13,14 @@
     src: url("../fonts/OpenSans-Regular.ttf");
 }
 
+@media (max-width: 799px)
+{
+    #title-text
+    {
+        margin-top: 60px;
+    }
+}
+
 html, body
 {
     margin: 0;
@@ -33,18 +41,6 @@ body
     text-align: center;
     color: white;
     font-family: OpenSansSemiBold;
-}
-
-@media (max-width: 799px)
-{
-    #title-text
-    {
-        margin-top: 50px;
-    }
-}
-
-@media (min-width: 800px)
-{
 }
 
 #login-button

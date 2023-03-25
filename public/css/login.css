@@ -1,10 +1,25 @@
+@media (max-width: 799px)
+{
+    #login-form
+    {
+        width: 80%;
+    }
+}
+
+@media (min-width: 800px)
+{
+    #login-form
+    {
+        width: 400px;
+    }
+}
+
 #login-form
 {
     background-color: rgb(31, 31, 31);
     color: white;
     margin: auto;
     margin-top: 50px;
-    width: 400px;
     border-radius: 10px;
 }
 
