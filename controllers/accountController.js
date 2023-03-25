@@ -48,7 +48,7 @@ async function CheckSession(req, res)
 
     if (user.length === 0)
     {
-        res.status(200).json({ "username": "" });
+        res.status(200).json({ "username": null });
     }
     else
     {

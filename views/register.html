@@ -4,9 +4,26 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Books - Login</title>
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/register.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <script src="js/cookie-util.js"></script>
+        <script src="js/register.js"></script>
     </head>
     <body>
-        <p>register</p>
+        <h1 id="title-text">Ryan's Books</h1>
+        <div id="register-form">
+            <h2 id="register-title">Account Registration</h2>
+            <label for="username">Username</label>
+            <input type="text", name="username", id="form-username" />
+            <label for="password">Password</label>
+            <input type="password", name="password", id="form-password" />
+            <p id="login-text">Already have an account? <a id="login-redirect-button" href="login">Login</a></p>
+            <div id="button-panel">
+                <p id="register-submit-button">Register</p>
+                <p id="cancel-button">Cancel</p>
+            </div>
+        </div>
     </body>
 </html>

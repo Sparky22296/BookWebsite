@@ -15,7 +15,31 @@
         <header>
             <h1 id="title-text">Books</h1>
             <p id="login-button">Login/Register</p>
+            <p id="back-button">Back</p>
         </header>
+        <div id="create-overlay" class="hidden overlay">
+            <div class="overlay-dialog-box">
+                <h2 class="overlay-title">Add Book</h2>
+                <label for="CO-form-title-name">Book Title</label>
+                <input type="text", name="CO-form-title-handle", id="CO-form-title" />
+                <label for="CO-form-author-handle">Author</label>
+                <input type="text", name="CO-form-author-handle", id="CO-form-author" />
+                <div class="overlay-button-panel">
+                    <p id="CO-submit-button" class="overlay-button">Submit</p>
+                    <p id="CO-cancel-button" class="overlay-button">Cancel</p>
+                </div>
+            </div>
+        </div>
+        <div id="edit-overlay" class="hidden overlay">
+            <div class="overlay-dialog-box">
+                <h2 id="EO-title" class="overlay-title">The Old Man and the Sea</h2>
+                <h2 id="EO-author" class="overlay-subtitle">by Ernest Hemingway</h2>
+                <div class="overlay-button-panel">
+                    <p id="EO-delete-button" class="overlay-button">Delete</p>
+                    <p id="EO-cancel-button" class="overlay-button">Cancel</p>
+                </div>
+            </div>
+        </div>
         <div id="table-controls">
             <input type="text" id="searchbar" placeholder="Search for a Book/Author" />
             <p id="search-button" class="control-button">Search</p>

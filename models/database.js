@@ -1,11 +1,12 @@
 const mariadb = require("mariadb");
 
 const pool = mariadb.createPool({
-    host: "localhost",
-    user: "root",
-    password: "Ryanis2cool",
-    database: "bookwebsite"
-});
+        host: "localhost",
+        user: "root",
+        password: "dnG!43F#$K3n4fn3",
+        database: "book_website"
+    }
+);
 
 pool.getConnection((err, connection) => 
 {

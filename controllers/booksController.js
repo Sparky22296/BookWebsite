@@ -21,7 +21,6 @@ async function AddBook(req, res)
 {
     // Checking Permissions
     var session = await pool.query(`SELECT username FROM sessions WHERE ID = ?`, req.query.sessionID);
-    // console.log("username: " + session[0].username);
     if (session.length === 0 || session[0].username != req.query.owner)
     {
         res.sendStatus(403);
@@ -66,7 +65,8 @@ async function GetCount(req, res)
 
 async function RemoveBook(req, res)
 {
-
+    await pool.query(`DELETE FROM owns WHERE owner = ? AND book_title = ? AND book_author = ?`, [ req.query.owner, req.query.title, req.query.author ]);
+    res.sendStatus(200);
 }
 
-module.exports = { GetBooks, AddBook, GetCount }
+module.exports = { GetBooks, AddBook, GetCount, RemoveBook }

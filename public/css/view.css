@@ -1,3 +1,131 @@
+#back-button
+{
+    color: white;
+    font-family: OpenSansRegular;
+    padding: 7px 13px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 12px;
+}
+
+#back-button:hover
+{
+    background-color: grey;
+    color:rgb(31, 31, 31);
+    cursor: pointer;
+}
+
+/* start */
+
+.overlay
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-dialog-box
+{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+.overlay-title
+{
+    font-family: OpenSansSemibold;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+}
+
+.overlay-subtitle
+{
+    font-family: OpenSansRegular;
+    font-size: 13px;
+    text-align: center;
+    color: grey;
+}
+
+.overlay-dialog-box label
+{
+    display: block;
+    font-family: OpenSansRegular;
+    font-size: 12px;
+    margin-left: 15%;
+}
+
+.overlay-dialog-box input
+{
+    font-family: OpenSansRegular;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(41, 41, 53);
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;
+    margin-left: 15%;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.overlay-button-panel
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 20px;
+}
+
+.overlay-button
+{
+    display: inline;
+    font-family: OpenSansRegular;
+    font-size: 13px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 70px;
+    text-align: center;
+}
+
+#CO-submit-button
+{
+    border: 1px solid rgb(35, 107, 35);
+}
+
+#CO-submit-button:hover
+{
+    background-color: rgb(35, 107, 35);
+    cursor: pointer;
+}
+
+#CO-cancel-button, #EO-cancel-button, #EO-delete-button
+{
+    border: 1px solid rgb(107, 35, 35);
+}
+
+#CO-cancel-button:hover, #EO-cancel-button:hover, #EO-delete-button:hover
+{
+    background-color: rgb(107, 35, 35);
+    cursor: pointer;
+}
+
+/* wegwenguiow */
+
 #table-controls
 {
     display: flex;
@@ -15,11 +143,6 @@
     border-radius: 5px;
     color: white;
     outline: none;
-}
-
-.hidden
-{
-    display: none;
 }
 
 .control-button

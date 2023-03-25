@@ -54,3 +54,8 @@ body
     color:rgb(31, 31, 31);
     cursor: pointer;
 }
+
+.hidden
+{
+    display: none !important;
+}

@@ -1,13 +1,14 @@
-#form
+#register-form
 {
     background-color: rgb(31, 31, 31);
     color: white;
     margin: auto;
     margin-top: 50px;
     width: 400px;
+    border-radius: 10px;
 }
 
-#title
+#register-title
 {
     font-family: OpenSansSemibold;
     font-size: 15px;
@@ -15,7 +16,7 @@
     padding: 20px;
 }
 
-#form label
+#register-form label
 {
     display: block;
     font-family: OpenSansRegular;
@@ -23,7 +24,7 @@
     margin-left: 15%;
 }
 
-#form input
+#register-form input
 {
     font-family: OpenSansRegular;
     background-color: rgb(20, 20, 20);
@@ -36,6 +37,20 @@
     margin-bottom: 10px;
 }
 
+#login-text
+{
+    color: white;
+    font-family: OpenSansRegular;
+    font-size: 13px;
+    text-align: center;
+}
+
+#login-redirect-button
+{
+    text-decoration: none;
+    color: rgb(85, 85, 206);
+}
+
 #button-panel
 {
     display: flex;
@@ -45,7 +60,7 @@
     padding-bottom: 20px;
 }
 
-#submit-button
+#register-submit-button
 {
     display: inline;
     font-family: OpenSansRegular;
@@ -58,7 +73,7 @@
     text-align: center;
 }
 
-#submit-button:hover
+#register-submit-button:hover
 {
     background-color: rgb(35, 107, 35);
     cursor: pointer;

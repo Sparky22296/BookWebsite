@@ -22,9 +22,4 @@ function GetViewPage(req, res)
     res.status(200).sendFile(path.resolve("./views/view.html"));
 }
 
-function GetNewBookPage(req, res)
-{
-    res.status(200).sendFile(path.resolve("./views/new-book.html"));
-}
-
-module.exports = { GetIndexPage, GetLoginPage, GetRegisterPage, GetViewPage, GetNewBookPage }
+module.exports = { GetIndexPage, GetLoginPage, GetRegisterPage, GetViewPage }
