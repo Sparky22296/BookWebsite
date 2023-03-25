@@ -1,3 +1,19 @@
+@media (max-width: 799px)
+{
+    #table
+    {
+        width: 95%;
+    }
+}
+
+@media (min-width: 800px)
+{
+    #table
+    {
+        width: 40%;
+    }
+}
+
 #back-button
 {
     color: white;
@@ -166,7 +182,6 @@
 {
     background-color: rgb(31, 31, 31);
     border-radius: 10px;
-    width: 40%;
     color: white;
     margin: auto;
     overflow-y: scroll;
