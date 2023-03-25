@@ -16,6 +16,11 @@
     {
         width: 100%;
     }
+
+    .control-button
+    {
+        width: 100px;
+    }
 }
 
 @media (min-width: 800px)
@@ -191,10 +196,6 @@
     background-color: rgb(107, 35, 35);
     cursor: pointer;
 }
-
-/* wegwenguiow */
-
-
 
 #table
 {
